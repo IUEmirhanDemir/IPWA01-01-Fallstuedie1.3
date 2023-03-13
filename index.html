@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="de" data-theme="dark">
 
+
 <head>
-
     <style>
-        .reponsive {
-
+        .logoWith {
             width: 100%;
-
-            max-width: 525px;
-            min-width: 125px;
-
-
-        }
-
-        .container nav {
-            max-height: 125px;
-
+            max-width: 650px;
+            min-width: 110px;
         }
 
         .secondary {
             color: rgb(205, 157, 122);
 
         }
+
+      
 
         .wir {
             width: 300px;
@@ -33,20 +26,18 @@
 
         }
 
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
+      
     </style>
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>O.N.eV</title>
+
 </head>
-<header class="container">
+<body class="container">
+
+<header>
 
     <nav>
         <ul>
@@ -54,25 +45,59 @@
         </ul>
         <ul>
             <li><a href="index.html"> <strong><img src="Bilder/Logo.png" alt="Logo: O.N. eV Old for You, New for Them"
-                            class="reponsive"></strong></a></li>
+                            class="logoWith"></strong></a></li>
         </ul>
         <ul>
-            <li><a href="https://www.instagram.com/On.eV." class="secondary">Instagram </a></li> <!-- Fiktive Seite -->
+            <li><a href="https://www.instagram.com/On.eV." target="_blank" class="secondary">Instagram </a></li>
+            <!-- Fiktive Seite -->
         </ul>
     </nav>
 
 </header>
 
-<body class="container">
+
+
+    <main>
+    <div class="grid">
+        <div><img src="Bilder/Wir.png" alt="WIR Logo" class="wir"></div>
+        <div>
+            <article aria-label="Card">Wir sind eine gemeinnützige Organisation, die Wert auf Transparenz und
+                Einfachheit legt, um die Welt ein wenig zu verbessern. Zu diesem Zweck benötigen Wir Dich.</article>
+     </div>
+
+    </div>
+    <div class="grid">
+
+        <div>
+            <article aria-label="Card">Wir legen großen Wert darauf, dass die Spenden so einfach wie möglich erfolgen
+                sollen. Du füllst ein <a href="Formular.html">Formular</a> aus und erhältst eine Bestätigung. Die
+                Spenden können entweder, von uns abgeholt weden, oder du bringst sie vorbei. Ganz Einfach und bequem!
+            </article>
+        </div>
+
+        <div><img src="Bilder/Konzept.png" alt="Konzept Logo" class="wir"></div>
+    </div>
 
     <div class="grid">
-        <div><img src="Bilder/Wir.png" alt="WIR" class="wir"></div>
+        <div><img src="Bilder/Du.png" alt="Du Logo" class="wir"></div>
         <div>
-            <article aria-label="Card example">Wir sind eine gemeinnützige Organisation, die Wert auf Transparenz und
-                Einfachheit legt, um die Welt ein wenig zu verbessern. Zu diesem Zweck benötigen Wir Dich.</article>
+            <article aria-label="Card">DU bist der Mittelpunkt dieser gemeinnützige Organisation. Deshalb lassen wir
+                dich entscheiden, in welches Kriesengebiet du spenden willst. Wir halten es so Transparent wie möglich
+                für dich, damit du dich auch mit deine Spende dich wohl füllst.</article>
         </div>
 
     </div>
-</body>
 
+</main>
+
+
+<footer class="container">
+
+    <div class="grid">
+        <a href="#" role="button" class="secondary outline">Impressum</a>
+        <a href="#" role="button" class="secondary outline">Rechtliches </a>
+        <a href="#" role="button" class="secondary outline">Interne Seite</a>
+    </div>
+</footer>
+</body>
 </html>
